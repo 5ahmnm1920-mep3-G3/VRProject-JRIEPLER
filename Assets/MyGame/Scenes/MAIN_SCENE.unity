@@ -325,7 +325,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0a44ba2f0ec946e42977b735a80c0890, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -518,6 +518,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room
       objectReference: {fileID: 0}
+    - target: {fileID: 1348476985385481469, guid: b7873ce9442644236a53739f5c4d9374,
+        type: 3}
+      propertyPath: m_Name
+      value: Venus_Door
+      objectReference: {fileID: 0}
+    - target: {fileID: -1981599217818291279, guid: b7873ce9442644236a53739f5c4d9374,
+        type: 3}
+      propertyPath: m_Name
+      value: Earth_Door
+      objectReference: {fileID: 0}
+    - target: {fileID: -1981599217818291279, guid: b7873ce9442644236a53739f5c4d9374,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233978050968426042, guid: b7873ce9442644236a53739f5c4d9374,
+        type: 3}
+      propertyPath: m_Name
+      value: Mars_Door
+      objectReference: {fileID: 0}
     - target: {fileID: -9195807641641327649, guid: b7873ce9442644236a53739f5c4d9374,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -628,16 +648,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.015
       objectReference: {fileID: 0}
-    - target: {fileID: -1981599217818291279, guid: b7873ce9442644236a53739f5c4d9374,
-        type: 3}
-      propertyPath: m_Name
-      value: Earth_Door
-      objectReference: {fileID: 0}
-    - target: {fileID: -1981599217818291279, guid: b7873ce9442644236a53739f5c4d9374,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 1116155099928102365, guid: b7873ce9442644236a53739f5c4d9374,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -653,21 +663,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.015
       objectReference: {fileID: 0}
-    - target: {fileID: 1348476985385481469, guid: b7873ce9442644236a53739f5c4d9374,
-        type: 3}
-      propertyPath: m_Name
-      value: Venus_Door
-      objectReference: {fileID: 0}
     - target: {fileID: 6257306388321128576, guid: b7873ce9442644236a53739f5c4d9374,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c1a671709ff509d46b413f23f31928d5, type: 2}
-    - target: {fileID: 7233978050968426042, guid: b7873ce9442644236a53739f5c4d9374,
-        type: 3}
-      propertyPath: m_Name
-      value: Mars_Door
-      objectReference: {fileID: 0}
     - target: {fileID: 8681792103034133772, guid: b7873ce9442644236a53739f5c4d9374,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -683,6 +683,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 055f1fb96b5af4c75b2752797794cd9d, type: 2}
+    - target: {fileID: -6911846659642966275, guid: b7873ce9442644236a53739f5c4d9374,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e5f8ee44d1a9e14f8ad70cf8c9ec5f5, type: 2}
+    - target: {fileID: -1482385891499680012, guid: b7873ce9442644236a53739f5c4d9374,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8b84ccf6d6096b7478abdfec9284fa40, type: 2}
+    - target: {fileID: 5552543675898628266, guid: b7873ce9442644236a53739f5c4d9374,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0a44ba2f0ec946e42977b735a80c0890, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7873ce9442644236a53739f5c4d9374, type: 3}
 --- !u!1 &422856434
@@ -1067,7 +1082,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8e5f8ee44d1a9e14f8ad70cf8c9ec5f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1245,7 +1260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winObject: {fileID: 32119352}
-  startTime: 5
+  startTime: 59
   loseObject: {fileID: 1425900531}
   timerText: {fileID: 1651277348}
 --- !u!4 &578370743
@@ -1501,7 +1516,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8b84ccf6d6096b7478abdfec9284fa40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2176,6 +2191,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1651277346}
   m_CullTransparentMesh: 0
+--- !u!1 &1820713519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: b7873ce9442644236a53739f5c4d9374,
+    type: 3}
+  m_PrefabInstance: {fileID: 416014073}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1820713520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820713519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202a6e24b48d1684398409c47161adcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingOriginTransform: {fileID: 0}
+  hmdTransforms: []
+  hands: []
+  headCollider: {fileID: 0}
+  rigSteamVR: {fileID: 0}
+  rig2DFallback: {fileID: 0}
+  audioListener: {fileID: 0}
+  headsetOnHead:
+    actionPath: /actions//in/HeadsetOnHead
+    needsReinit: 1
+  allowToggleTo2D: 1
+--- !u!114 &1820713521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820713519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202a6e24b48d1684398409c47161adcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingOriginTransform: {fileID: 0}
+  hmdTransforms: []
+  hands: []
+  headCollider: {fileID: 0}
+  rigSteamVR: {fileID: 0}
+  rig2DFallback: {fileID: 0}
+  audioListener: {fileID: 0}
+  headsetOnHead:
+    actionPath: /actions//in/HeadsetOnHead
+    needsReinit: 1
+  allowToggleTo2D: 1
+--- !u!114 &1820713522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820713519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202a6e24b48d1684398409c47161adcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingOriginTransform: {fileID: 0}
+  hmdTransforms: []
+  hands: []
+  headCollider: {fileID: 0}
+  rigSteamVR: {fileID: 0}
+  rig2DFallback: {fileID: 0}
+  audioListener: {fileID: 0}
+  headsetOnHead:
+    actionPath: /actions//in/HeadsetOnHead
+    needsReinit: 1
+  allowToggleTo2D: 1
 --- !u!1 &1863659372 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7385746840133072833, guid: b7873ce9442644236a53739f5c4d9374,

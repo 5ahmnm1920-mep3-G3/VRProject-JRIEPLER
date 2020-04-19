@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
     
     private int completetPlanets;
     public GameObject winObject;
-    public float startTime = 5;
+    public float startTime = 120;
     private float timerTime;
     public GameObject loseObject;
     public TMP_Text timerText;
